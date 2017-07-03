@@ -1,0 +1,189 @@
+/*Phần popup*/
+
+.popup {
+    width: 100%;
+    height: 100%;
+    display: none;
+    position: absolute;
+    overflow: scroll;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+
+/* Inner */
+
+.popup-inner {
+    max-width: 700px;
+    width: 90%;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+    background: #fff;
+}
+
+
+/* Close Button */
+
+.popup-close {
+    width: 30px;
+    height: 30px;
+    padding-top: 4px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    transition: ease 0.25s all;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 1000px;
+    background: rgba(0, 0, 0, 0.8);
+    font-family: Arial, Sans-Serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 100%;
+    color: #fff;
+}
+
+.popup-close:hover {
+    -webkit-transform: translate(50%, -50%) rotate(180deg);
+    transform: translate(50%, -50%) rotate(180deg);
+    background: rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
+
+/*Phần popup*/
+
+.form {
+    width: 450px;
+    height: auto;
+    margin: auto;
+    background-color: #d4d4d4;
+    color: #ffffff;
+}
+
+.hoten {
+    width: 200px;
+    height: 30px;
+    color: #930000;
+}
+
+.ngaysinh {
+    width: 400px;
+    height: 30px;
+    color: #930000;
+}
+
+.diachi {
+    width: 400px;
+    color: #930000;
+}
+
+.sodienthoai {
+    width: 400px;
+    height: 30px;
+    color: #930000;
+}
+
+.wrapper_search_form {
+    width: 700px;
+    height: 500px;
+    margin: auto;
+    border-radius: 5px;
+    border: dotted 5px #333333;
+}
+
+.wrapper_search_form .title {
+    width: auto;
+    height: 50px;
+    line-height: 50px;
+    background-color: #a1a1a1;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.wrapper_search_form .search {
+    width: auto;
+    height: 450px;
+    line-height: 30px;
+    background-color: #c0c0c0;
+    text-align: center;
+}
+
+.wrapper_search_form .search_form {
+    width: auto;
+    height: auto;
+}
+
+.wrapper_search_form .search_form .hoten {
+    width: 400px;
+    height: 30px;
+}
+
+.wrapper_search_form .search_form .ngaysinh {
+    width: 400px;
+    height: 30px;
+}
+
+.wrapper_search_form .search_form .diachi {
+    width: 400px;
+    height: 100px;
+}
+
+.wrapper_search_form .search_form .sodienthoai {
+    width: 400px;
+    height: 30px;
+}
+
+.phantrang {
+    text-align: center;
+}
+
+.delete_add {
+    width: auto;
+    height: auto;
+    margin-left: 180px;
+    list-style-type: none;
+}
+
+.delete_add li {
+    width: auto;
+    height: auto;
+    border: solid 1px #000;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.delete_add li #btn {
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #5BA150;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.delete_add li.add {
+    width: 70px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #5BA150;
+    text-align: center;
+    padding: 10px;
+    border: solid 1px #004000;
+}
+
+.delete_add li.add a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
